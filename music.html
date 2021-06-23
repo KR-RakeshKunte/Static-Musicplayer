@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MUSIC PLAYER</title>
+        <link rel="stylesheet" href="music.css">
+    </head>
+    <body>
+        <audio src="Malang - Title Track.mp3" id="song"></audio>
+        <input
+      type="range"
+      id="progress-bar"
+      min="0"
+      max=""
+      value="0"
+      onchange="changeProgressBar()"
+    />
+        <div class="control">
+            <img src="speaker.jpg" id="speaker" />
+            
+            <img src="play.png" onclick="playPause()" id="play-pause" />
+            
+            <img src="forward.png" id="forward" />
+    
+
+        </div>
+        
+
+    </body>
+    <script src="music.js"></script>
+</html>
